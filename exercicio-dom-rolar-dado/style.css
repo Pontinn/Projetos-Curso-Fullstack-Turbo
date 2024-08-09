@@ -1,0 +1,39 @@
+* {
+
+    font-family: 'Montserrat';
+}
+
+body{
+
+    background-color:steelblue;
+    
+}
+
+.title{
+
+    padding: 10% 10% 2%;
+    text-align: center;
+}
+
+.title h1, .result{
+
+    color: white;
+}
+
+.container {
+
+    margin: auto;
+    width: 28%;
+    text-align: center;
+}
+
+.dices {
+
+    display: inline-block;
+    
+}
+
+.dice {
+
+    padding: 0 2%;
+}
