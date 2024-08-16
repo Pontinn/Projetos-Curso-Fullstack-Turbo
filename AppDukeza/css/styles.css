@@ -1,219 +1,188 @@
 /*===============================SEÇÃO TAGS GERAIS===============================*/
-    .big-heading {
-        font-family: 'montserrat', sans-serif; 
-        font-size: 3rem;
-        line-height: 1.5;
-        font-weight: 900; 
-        padding-bottom: 2%; 
-    }
+.big-heading {
+  font-family: "montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-bottom: 2%;
+}
 
-    body {
-
-        font-family: 'montserrat';
-    }
-
-   
+body {
+  font-family: "montserrat";
+}
 
 /*===============================SEÇÃO NAVBAR/BANNER PRINCIPAL===============================*/
 .top-container {
-
-    padding: 1% 15% 15%;
-   
+  padding: 1% 15% 15%;
 }
 
 .custom-logo {
-
-    font-size: 40px;
-    font-weight: 600;
-
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .nav-item {
-
-    padding: 0 18px;
+  padding: 0 18px;
 }
 
 .nav-link {
-
-    color: rgb(226, 226, 226) !important;
-    font-family: 'montserrat';
-    font-size: 1.2rem;
+  color: rgb(226, 226, 226) !important;
+  font-family: "montserrat";
+  font-size: 1.2rem;
 }
 
 .nav-link:hover {
-
-    color: white !important;
-    text-decoration: underline 2px;
-    text-underline-offset: 8px;
+  color: white !important;
+  text-decoration: underline 2px;
+  text-underline-offset: 8px;
 }
 
 @media (max-width: 1028px) {
+  .title-image {
+    display: none;
+  }
 
-    .title-image {
-        display: none;
-    }
-
-    #title {
-        text-align: center;
-    }
+  #title {
+    text-align: center;
+  }
 }
 
 .title-image {
-
-    width: 20%;
-    transform: rotate(25deg);
-    position: absolute;
-    
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
 }
 
 #title {
-    color: white;
-    background-color: #061D34; 
-     
+  color: white;
+  background-color: #061d34;
 }
 
 #main-screen {
-
-    padding-top: 4.5rem;
-
+  padding-top: 4.5rem;
 }
-
 
 /*===============================SEÇÃO FEATURES===============================*/
 
 #features {
-
-    background-color: white;
-    z-index: 1;
-    padding: 10% 15%;
-    position: relative;
+  background-color: white;
+  z-index: 1;
+  padding: 10% 15%;
+  position: relative;
 }
 
 .features-box {
-
-    text-align: center;
-    padding: 0 5%;
+  text-align: center;
+  padding: 0 5%;
 }
 
 .features-title {
-
-    font-family: 'raleway';
+  font-family: "raleway";
 }
 
 .features-icon {
-
-    color: #EB8176;
-    padding-bottom: 2rem;
+  color: #eb8176;
+  padding-bottom: 2rem;
 }
 
 .features-icon:hover {
-    color: #f35a49;
-    cursor: pointer;
+  color: #f35a49;
+  cursor: pointer;
 }
 
 /*===============================SEÇÃO TESTIMONIAL===============================*/
 
 #testimonials {
-    
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #EB8176;
-    color: white;
-
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #eb8176;
+  color: white;
 }
 
 .testimonial-image {
-
-    width: 10%;
-    border-radius: 50%;
-    margin: 20px;
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
 }
 
 /*===============================SEÇÃO PRESS===============================*/
 
 #press {
-
-    background-color: #EB8176;
-    text-align: center;
-    padding-bottom: 3%;
+  background-color: #eb8176;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 .press-image {
-    width: 20%;
-    margin: 20px 20px 50px ;
+  width: 20%;
+  margin: 20px 20px 50px;
 }
 
 /*===============================SEÇÃO SUBSCRIBE===============================*/
 
 #subscribe {
-    text-align: center;
-    padding: 5%;
+  text-align: center;
+  padding: 5%;
 }
 
 .subscribe-text {
-    padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 
 .card-header-content {
-    font-family: 'raleway';
-    font-size: 30px;
-    padding-top: 10px;
+  font-family: "raleway";
+  font-size: 30px;
+  padding-top: 10px;
 }
 
 .product-price-card {
-
-    font-size: 40px;
-    font-weight: 600;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .product-description-space {
-    color: rgb(49, 49, 49);
-    padding: 20px 0;
+  color: rgb(49, 49, 49);
+  padding: 20px 0;
 }
 
 .product-button {
-
-    margin-bottom: 20px !important;
-    padding: 10px 40px;
-    font-size: 20px;
-
+  margin-bottom: 20px !important;
+  padding: 10px 40px;
+  font-size: 20px;
 }
 
 .subscribe-h1 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 /*===============================SEÇÃO DOWNLOAD===============================*/
 
 #download {
-
-    background-color: #061D34;
-    color: white;
-    text-align: center;
-    padding: 10%;
-    
+  background-color: #061d34;
+  color: white;
+  text-align: center;
+  padding: 10%;
 }
 
 .download-buttons {
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    margin: 10px auto;
-    padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 10px auto;
+  padding-top: 20px;
 }
 
 /*===============================SEÇÃO FOOTER===============================*/
 
 .foot {
-    padding: 5% 7%;
-    text-align: center;
+  padding: 5% 7%;
+  text-align: center;
 }
 
 .icons-footer {
-
-    display: flex;
-    justify-content: space-around;
-    width: 150px;
-    margin: 0 auto;
-    padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
