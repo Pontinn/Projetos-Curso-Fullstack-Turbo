@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background: linear-gradient(140deg, #7580fb, rgb(207, 206, 255));
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: 50%;
+  width: 100%;
+
+}
+
+.form-box h1 {
+
+  font-family: "Poppins";
+}
+
+.form-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgb(131, 131, 131);
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  width: 191px;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+#fuser-name,
+#fuser-password,
+#fuser-password-confirm {
+
+  border: solid rgb(206, 206, 206) 1px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+
+}
